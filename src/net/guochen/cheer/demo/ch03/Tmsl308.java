@@ -1,4 +1,4 @@
-package demo.ch03;
+package net.guochen.cheer.demo.ch03;
 
 public class Tmsl308 {   //¥¥Ω®¿‡
 	public static void main(String[] arge){

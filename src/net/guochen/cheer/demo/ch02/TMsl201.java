@@ -1,4 +1,4 @@
-package demo.ch02;
+package net.guochen.cheer.demo.ch02;
 
 public class TMsl201 {
 	public static void main(String[] args){
