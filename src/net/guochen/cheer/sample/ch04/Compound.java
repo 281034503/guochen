@@ -14,7 +14,7 @@ public class Compound {
 				
 			}
 		}
-		String word="hello jav";
+		String word="hello java";
 		System.out.println(word);
 	}
 

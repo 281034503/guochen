@@ -12,8 +12,8 @@ public class Getifelse {
 			System.out.println("数学没有及格");   //条件不成立时输出的信息
 		}
 		if(english>60){     //判断英语成绩是否大于60
-			System.out.println("英语及格了");  //条件成立时输出的信息
-		} 
+			System.out.println("英语及格了");   //条件成立时输出的信息
+			} 
 		else{
 		System.out.println("英语没有及格");    //条件不成立时输出的信息
 		}
