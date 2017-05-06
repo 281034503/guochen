@@ -4,9 +4,9 @@ public class Four {
 	public static void main(String[] args) {
 		int arr[][]=new int[][]{{1,2,3},{4,5,6},{7,8,9}};   //创建二维数组
 		System.out.println("数组原内容："+"" );
-		for(int i=0;i<arr.length;i++){    //代表行
+		for(int i=0;i<arr.length;i++){    //代表行，i从0开始，i小于数组个数则加1
 			for(int j=0;j<arr.length;j++){    // 代表列
-				System.out.print(arr[i][j]);    //
+				System.out.print(arr[i][j]);    //先输出行在输出列
 			
 			}
 			System.out.println("  " );   //换行

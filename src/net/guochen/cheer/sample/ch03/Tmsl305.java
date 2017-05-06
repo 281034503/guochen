@@ -1,4 +1,4 @@
-package net.guochen.cheer.demo.ch03;
+package net.guochen.cheer.sample.ch03;
 
 public class Tmsl305 {    //新建类
 	static int times = 3;    //定义成员变量times

@@ -1,4 +1,4 @@
-package net.guochen.cheer.demo.ch03;
+package net.guochen.cheer.sample.ch03;
 
 public class Tmsl306 {   //新建类
 	public static void main(String[]args){    //主方法

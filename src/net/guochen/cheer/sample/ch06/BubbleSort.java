@@ -6,7 +6,7 @@ public class BubbleSort {
 	public static void main(String[] args){
 		int[] array={63,4,24,1,3,15};   //创建一个数组，这个数组元素都是乱序的
 		BubbleSort sort=new BubbleSort();    //创建冒泡排序类的对象
-		sorter.sort(array);    //调用排序方法将数组排序
+		sort.sort(array);    //调用排序方法将数组排序
 	}
 		
 	/**

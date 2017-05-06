@@ -6,7 +6,7 @@ public class Judge {
 		String regex="\\w+@\\w+(\\.\\w{2,3})*\\.\\w{2,3}";
 		//定义要匹配E-mail地址的正则表达式
 		String str1="aaa@";   //定义要验证的字符串
-		String str2="aaaaa";。
+		String str2="aaaaa";
 		String str3="1111@111ffyu.dfg.com";
 		
 		if (str1.matches(regex)){    //判断字符串变量是否与正则表达式匹配

@@ -1,4 +1,4 @@
-package net.guochen.cheer.demo.ch02;
+package net.guochen.cheer.sample.ch02;
 
 public class Tmsl202 {
 

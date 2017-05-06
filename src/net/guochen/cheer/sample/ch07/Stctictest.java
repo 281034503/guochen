@@ -16,7 +16,7 @@ public class Stctictest {
 	}
 	public static Stctictest method3(){    //在类中定义一个静态方法
 		method2();      //调用非静态方法
-		return instance;     //在return语句中使用this关键字
+		return instance;     //在return语句中使用instance
 	}  
 
 }

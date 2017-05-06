@@ -8,7 +8,7 @@ public class SelectSort {
 	public static void main(String[] args){
 		int[] array={63,4,24,1,3,15};   //创建一个数组，这个数组元素是乱序的
 		SelectSort sort=new SelectSort();   //创建直接排序类的对象
-		sorter.sort(array);    //调用排序对象的方法将数组排序
+		sort.sort(array);    //调用排序对象的方法将数组排序
 	}
 	/**
 	 * 直接选择排序
