@@ -14,7 +14,7 @@ public class Example1 extends JFrame {   //定义一个类继承JFrame类
 		Container container=jf.getContentPane();    //获取一个容器
 		JLabel jl=new JLabel("这是aaaaa一个JFrame窗口");    //获取一个JLabel标签
 				
-		jl.setHorizontalAlignment(SwingConstants.CENTER);
+		jl.setHorizontalAlignment(SwingConstants.CENTER);   //显示在中心位置
 		container.add(jl);     //将标签添加到容器中
 		container.setBackground(Color.GREEN);    //设置容器的背景为绿颜色
 		jf.setVisible(true);     //使窗体可视
