@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.WindowConstants;
 
 public class FlowLayoutPosition extends JFrame{
-	public FlowLayoutPosition(){
+	public FlowLayoutPosition(){      //构造方法
 		setTitle("本窗体使用流布局管理器");   //设置窗体标题
 		Container c=getContentPane();
 		

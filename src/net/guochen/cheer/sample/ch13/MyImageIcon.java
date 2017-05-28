@@ -8,6 +8,7 @@ import javax.swing.*;
 public class MyImageIcon extends JFrame {
 
 	private static final long serialVersionUID = 1L;
+	private static final String F = null;
 
 	public MyImageIcon() {
 		Container container = getContentPane();
@@ -16,7 +17,7 @@ public class MyImageIcon extends JFrame {
 		// 获取图片所在的URL
 		URL url = MyImageIcon.class.getResource("imageButton.jpg");  
 		//getResource获取文件夹路径
-		Icon icon = new ImageIcon(url);   // 实例化Icon对象
+		Icon icon = new ImageIcon();   // 实例化Icon对象
 		jl.setIcon(icon);     // 为标签设置图片	
 		jl.setHorizontalAlignment(SwingConstants.CENTER);
 		// 设置文字放置在标签中间
