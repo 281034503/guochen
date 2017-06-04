@@ -17,6 +17,8 @@ public class PoiTest {
 		HSSFCell cell=row.createCell(1);
 		cell.setCellValue("Hello POI");
 		workbook.write(new FileOutputStream("F:/javalianxi/testExcel.xls"));
+		
+		
 	}
 
 }
