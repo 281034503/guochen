@@ -5,7 +5,7 @@ import java.io.File;
 public class FileTest {
 
 	public static void main(String[] args) {
-		File file=new File("Word.txt");   //创建文件对象
+		File file=new File("F:/javalianxi/Word.txt");   //创建文件对象
 		if(file.exists()){        //如果该文件存在
 			file.delete();       //将文件删除
 			System.out.println("文件已删除");     //输出的提示信息
