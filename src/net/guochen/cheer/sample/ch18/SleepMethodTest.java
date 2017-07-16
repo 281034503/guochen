@@ -1,10 +1,10 @@
 package net.guochen.cheer.sample.ch18;
 import java.awt.Color;
+import java.awt.Graphics;
 import java.util.Random;
 
 import javax.swing.JFrame;
 
-import com.sun.prism.Graphics;
 
 public class SleepMethodTest extends JFrame {
 	
@@ -38,7 +38,8 @@ public class SleepMethodTest extends JFrame {
 						e.printStackTrace();
 					}
 					Graphics graphics=(Graphics) getGraphics();//获取组件绘图上下文对象
-					Graphics.setColor(getC ());//设置绘图颜色
+					
+					graphics.setColor(getC ());//设置绘图颜色
 					
 					graphics.drawLine(x, y, 100, y++);  //绘制直线并递增垂直坐标
 					if(y>=80){
